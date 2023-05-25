@@ -1,0 +1,117 @@
+html{
+    font-family: 'Roboto';
+    text-align: center;
+
+}
+
+
+#logo{
+    height: 80px;
+}
+body{
+    
+    background-image: url('https://miro.medium.com/v2/resize:fit:1400/1*wqvwB0iEc_5LXYFHQuUhkQ.png');
+    background-size: 100% 100%;
+    font-family: sans-serif;
+    color: azure;
+    margin-top: 80px;
+    padding: 40px;
+}
+.footer{
+align-items: center;
+box-shadow:0 0 25px 0 rgb(94, 139, 237);
+margin: 0%;
+padding: 20px;
+}
+header{
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 0 25px 0 black;   
+}
+header * {
+    display: inline-block;
+
+}
+header li{
+    margin: 20px;
+
+}
+header li a{
+    text-decoration: none;
+    color: rgb(38, 67, 136);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+h2{
+    color: rgb(49, 49, 174) ;
+    font-size: 50px;
+    font-weight: 60px;
+}
+.Home{
+font-size: 90px;
+text-align: center;
+color: rgb(86, 98, 122);
+text-shadow: 2px 2px #4c3d3d;
+}
+.sous-titre{
+    text-align: center;
+    color: rgb(95, 137, 186);
+    letter-spacing: 2px;
+    word-spacing:4px ;
+    font-size: 30px;
+}
+.image-1{
+    height: 450px;
+    width: 100%;
+}
+.image-2{
+    height: 700px;
+    width: 100%;
+}
+.cbc{
+    font-size: 28px;
+    color:rgb(95, 137, 186);
+}
+p{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+b.t{
+    font-size: 20px;
+    color: blanchedalmond;
+    font-style: italic;
+}
+.h3{
+    font-size: 30px;
+    color: rgb(95, 137, 186);
+}
+.image-3{
+    margin-top: 60px;
+    width: 100%;
+    margin-bottom: 40px;
+}
+.resume{
+    font-size: 24px;
+    color: dimgray;
+}
+.contact{
+    display: flex;
+    justify-content: space-around;
+    text-align:center;
+    margin-top: 100px;
+    
+}
+.image-4{
+    display: flex;
+    width: 50%;
+    margin-left: 80px;
+    align-items: center;
+}
